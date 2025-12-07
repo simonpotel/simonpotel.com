@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        COMPOSE_PROJECT_NAME = 'simonpotel.com'
+        COMPOSE_PROJECT_NAME = 'simonpotel-com'
         DOCKER_COMPOSE_FILE = 'docker-compose.yml'
         GIT_REPO_URL = 'https://github.com/simonpotel/simonpotel.com.git'
         GIT_CREDENTIALS_ID = 'github-pat'
