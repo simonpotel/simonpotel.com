@@ -1,0 +1,7 @@
+services:
+  simonpotel.com:
+    build: .
+    container_name: simonpotel.com
+    ports:
+      - "8001:4176"
+    restart: unless-stopped
