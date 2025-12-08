@@ -3,5 +3,5 @@ services:
     build: .
     container_name: simonpotel-com
     ports:
-      - "8080:4176"
+      - "2086:4176"
     restart: unless-stopped
